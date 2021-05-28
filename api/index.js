@@ -49,7 +49,7 @@ bot.on('message',(msg) => {
 	    );  
             bot.sendMessage(
 		msg.chat.id,
-		`nilai v yang diprediksi adalah ${jres[1]} watt`
+		`nilai P yang diprediksi adalah ${jres[1]} watt`
 	    );
       })               
     }else{
